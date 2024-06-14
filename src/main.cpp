@@ -95,7 +95,6 @@ void loop()
             }
             else
             {
-                // Each measurement is 28 char long.
                 dataFile.printf(DATA_FORMAT, _t, lightVal);
             }
             dataFile.close();
@@ -109,6 +108,7 @@ void loop()
     {
         LittleFS.remove(DATA_FILE_NAME);
         CURRENT_MODE = Mode::IDLE;
+        MEASUREMENT_COUNT = 0;
         break;
     }
     case Mode::DATA_FILE_READ:
