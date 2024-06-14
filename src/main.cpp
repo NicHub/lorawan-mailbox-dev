@@ -57,7 +57,7 @@ void setup()
     if (LittleFS.exists(DATA_FILE_NAME))
     {
         File dataFile = LittleFS.open(DATA_FILE_NAME, "a");
-        MEASUREMENT_COUNT = dataFile.size();
+        MEASUREMENT_COUNT = dataFile.size() / MEASUREMENT_CHAR_COUNT;
     }
     Serial.printf("FREE FLASH (B):                   %10lu\n", FREE_BYTES);
     Serial.printf("TOTAL POSSIBLE MEASUREMENT COUNT: %10lu\n", TOTAL_POSSIBLE_MEASUREMENT_COUNT);
