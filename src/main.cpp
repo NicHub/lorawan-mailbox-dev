@@ -21,16 +21,17 @@ void setupSSD1306()
     }
     display.clearDisplay();
     display.display();
+    display.dim(true);
+    display.setRotation(0);
 
     display.setFont(&FreeMonoBold9pt7b);
     display.setTextSize(1);
     display.setTextColor(SSD1306_WHITE);
-    display.setCursor(0, 15);
-    display.println(F("LoRa"));
+    display.setCursor(0, 20);
+    display.println(F("LoRaWAN"));
+    display.setCursor(0, 45);
     display.println(F("    MAILBOX"));
     display.display();
-
-    display.dim(true);
 }
 
 void setup()
