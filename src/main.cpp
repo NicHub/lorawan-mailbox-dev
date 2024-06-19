@@ -34,9 +34,14 @@ void setupSSD1306()
     display.display();
 }
 
-void setup()
+void setupSerial()
 {
     Serial.begin(BAUD_RATE);
+}
+
+void setup()
+{
+    setupSerial();
     setupSSD1306();
 }
 
