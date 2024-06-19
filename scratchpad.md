@@ -1,25 +1,22 @@
 # Tutos
 
 -   EB\_#513 Découverte - Le Module TTGO LoRa32 ESP32 v2 - Arduino
-    https://www.youtube.com/watch?v=o8Pd-hZDYwc
-
+    -   https://www.youtube.com/watch?v=o8Pd-hZDYwc
     -   https://github.com/sandeepmistry/arduino-LoRa
     -   https://github.com/adafruit/Adafruit_SSD1306
-
 -   #134 15$ LoRa Gateway with ESP8266 and a RFM95 (Tutorial)
-    https://www.youtube.com/watch?v=ZV_ZY-0Q1lo
-
+    -   https://www.youtube.com/watch?v=ZV_ZY-0Q1lo
 -   Andreas Spiess + LoRa on Youtube
-    https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ/search?query=lora
-
+    -   https://www.youtube.com/channel/UCu7_D0o48KbfhpEohoP7YSQ/search?query=lora
 -   #112 LoRa / LoRaWAN De-Mystified / Tutorial
-    https://www.youtube.com/watch?v=hMOwbNUpDQA&t=780s
+    -   https://www.youtube.com/watch?v=hMOwbNUpDQA&t=780s
+-   TTGO LoRa32 SX1276 OLED Board: Getting Started with Arduino IDE
+    -   https://randomnerdtutorials.com/ttgo-lora32-sx1276-arduino-ide/
 
 # À voir aussi
 
 -   https://www.galaxus.ch/fr/s1/product/milesight-iot-lorawan-outdoor-sensor-magnetic-contact-switch-em300-routeur-34606758
 -   https://www.youtube.com/results?search_query=milesight+magneticcontact+switch
-
 -   https://fr.aliexpress.com/item/1005003026107533.html
 
 # LoraWan
@@ -80,3 +77,11 @@ Lib to Install
 
 -   MKRWAN@1.1.0 (la v2 est en beta)
 -   LoRa by Sandeep Mistry;
+
+# Message de Laurent
+
+Salut Rolf,
+Voici les liens pour télécharger les exemples de RadioHead by Mc Cauley
+https://github.com/haloship/RadioHead/tree/master/examples
+C'est ceux que tu avais utilisé pour tes projets avec GPS. C'est aussi depuis ce site que j'ai pu faire des connexions point à point sans liaison sur un central !
+A+ et bon weekend
