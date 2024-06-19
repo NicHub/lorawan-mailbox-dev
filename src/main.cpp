@@ -29,6 +29,8 @@ void setupSSD1306()
     display.println(F("LoRa"));
     display.println(F("    MAILBOX"));
     display.display();
+
+    display.dim(true);
 }
 
 void setup()
@@ -39,4 +41,5 @@ void setup()
 
 void loop()
 {
+    yield();
 }
