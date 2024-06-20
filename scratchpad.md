@@ -22,12 +22,16 @@
 # LoraWan
 
 -   Swisscom
--   Sigfox
+-   Sigfox (Sigfox désigne à la fois un protocole réseau et l'opérateur éponyme)
 -   TTN The Thing Network <https://www.thethingsnetwork.org/>
 -
 
 # TTN
 
+https://eu1.cloud.thethings.network/console/
+
+
+NE PAS UTILISER thethings.industries !!!
 https://ouilogique.eu1.cloud.thethings.industries/console/
 
 user name

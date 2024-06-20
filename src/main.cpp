@@ -22,7 +22,7 @@ void setupSSD1306()
     display.clearDisplay();
     display.display();
     display.dim(true);
-    display.setRotation(0);
+    display.setRotation(2);
 
     display.setFont(&FreeMonoBold9pt7b);
     display.setTextSize(1);
