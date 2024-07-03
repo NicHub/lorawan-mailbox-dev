@@ -4,6 +4,7 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Fonts/FreeMonoBold9pt7b.h>
+#include "../fonts/Comic_Sans_MS_Bold13pt7b.h"
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -22,15 +23,15 @@ void setupSSD1306()
     display.clearDisplay();
     display.display();
     display.dim(true);
-    display.setRotation(2);
+    display.setRotation(0);
 
     display.setFont(&FreeMonoBold9pt7b);
     display.setTextSize(1);
     display.setTextColor(SSD1306_WHITE);
-    display.setCursor(0, 20);
-    display.println(F("LoRaWAN"));
-    display.setCursor(0, 45);
-    display.println(F("    MAILBOX"));
+    display.setFont(&Comic_Sans_MS_Bold13pt7b);
+    display.setCursor(10, 22);
+    display.println(F("Salut"));
+    display.println(F("     Rolf !"));
     display.display();
 }
 
