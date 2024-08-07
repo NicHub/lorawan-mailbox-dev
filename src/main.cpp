@@ -38,6 +38,7 @@ void setupSSD1306()
 void setupSerial()
 {
     Serial.begin(BAUD_RATE);
+    Serial.print("\n\n\n\n");
 }
 
 void setup()
@@ -48,5 +49,13 @@ void setup()
 
 void loop()
 {
-    yield();
+    unsigned long _t = millis();
+    if (_t % 1000 != 0)
+    {
+        yield();
+        return;
+    }
+    Serial.printf("%20lu\n", _t);
+    while (millis() % 1000 == 0)
+        yield();
 }
