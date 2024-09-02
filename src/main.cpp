@@ -30,7 +30,7 @@ void setupSSD1306()
     display.setTextColor(SSD1306_WHITE);
     display.setFont(&Comic_Sans_MS_Bold13pt7b);
     display.setCursor(10, 22);
-    display.println(F("Salut"));
+    display.println(F("Tcho"));
     display.println(F("     Rolf !"));
     display.display();
 }
